@@ -1,0 +1,13 @@
+cat << 'EOF' > .gitignore
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+data/uploads/*
+data/reports/*
+
+!data/uploads/.gitkeep
+!data/reports/.gitkeep
+EOF
